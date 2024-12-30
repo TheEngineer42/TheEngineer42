@@ -9,7 +9,7 @@ canvas.pack(expand = 1)# same as expand = True
 
 
 for i in range(0,520,20):
-    canvas.create_line(i,0,i,500)
+    canvas.create_line(i,0,i,500, width = 2)
     canvas.create_line(0,i,500,i)
 
 #drawing borders manually because they are not visible

@@ -9,8 +9,8 @@ canvas.pack(expand = 1)# same as expand = True
 
 
 for i in range(0,520,20):
-    canvas.create_line(i,0,i,500)
-    canvas.create_line(0,i,500,i)
+    canvas.create_line(i,0,i,500, width = 2)
+    canvas.create_line(0,i,500,i, width = 2)
 
 #drawing borders manually because they are not visible
 canvas.create_line(2,0,2,500)
@@ -20,12 +20,12 @@ canvas.create_line(0,2,500,2)
 for _ in range(500):
     n = random.randrange(0,521,20)
     m = random.randrange(0,521,20) 
-    canvas.create_line(n+1,m,n+20,m, fill = 'skyblue') #n+1 so that other lines are not damaged
+    canvas.create_line(n+1,m,n+20,m, fill = 'skyblue',width = 2) #n+1 so that other lines are not damaged
 
 #extracting vertical pieces
 for _ in range(500):
     k = random.randrange(0,521,20)
     l = random.randrange(0,521,20) 
-    canvas.create_line(l,k+1,l,k+20, fill = 'skyblue')
+    canvas.create_line(l,k+1,l,k+20, fill = 'skyblue',width = 2)
 
 root.mainloop()

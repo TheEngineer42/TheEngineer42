@@ -20,7 +20,7 @@ canvas.create_line(0,2,500,2)
 for _ in range(500):
     n = random.randrange(0,521,20)
     m = random.randrange(0,521,20) 
-    canvas.create_line(n+1,m,n+20,m, fill = 'skyblue') #n+1 so that other lines are not damaged
+    canvas.create_line(n+1,m,n+21,m, fill = 'skyblue') #n+1 so that other lines are not damaged
 
 #extracting vertical pieces
 for _ in range(500):
