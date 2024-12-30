@@ -1,0 +1,11 @@
+Unicode
+- universal charcter encoding system, to represent virtually all characters
+  in every language,symbol, and emoji
+- intially used 16 bits
+- now supports 32 bits
+- allows over one million of unique characters
+
+-Unicode includes Ascii
+
+examples:
+A = U+0041

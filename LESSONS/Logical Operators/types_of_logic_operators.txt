@@ -1,0 +1,9 @@
+TYPES OF LOGICAL OPERATORS:
+1. Unary Logical operator
+- operates on a single perand
+- NOT
+
+2. Binary Logical Operators 
+- operate on two operands
+- AND(logical conjuction); OR(logical disjunction)
+

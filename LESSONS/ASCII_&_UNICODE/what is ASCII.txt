@@ -1,0 +1,13 @@
+AMERICAN STANDARD CODE FOR INTERNATIONAL INTERCHANGE
+- one of the oldest character encoding standards
+- 1960s
+- represents text in computers
+- uses 7 bits to represent each character = 128 unique values?
+- control characters(newline(\n) carriage return), english letters, digits,
+  punctuation marks
+
+examples:
+A = 65
+a = 97
+1 = 49
+

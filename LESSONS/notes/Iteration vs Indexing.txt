@@ -1,0 +1,20 @@
+ITERATION VS INDEXING
+
+Iteration:
+- process of going through each element in a sequence(one at a time) 
+
+for char in "hello":
+    ...
+
+
+means that we are accessing each character separtely: h, e, l, l, o 
+
+
+
+Indexing:
+- how we refer to the position of each character (counting starts at 0)
+0 - h
+1 - e
+2 - l
+3 - l
+4 - o
