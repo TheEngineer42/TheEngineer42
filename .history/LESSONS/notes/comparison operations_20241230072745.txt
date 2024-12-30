@@ -1,0 +1,13 @@
+"""
+///////////////////////
+COMPARISON OPERTATIONS:
+///////////////////////
+
+>(more)
+<(less)
+>=(greater than or equal to)
+<=(less than or equal to)
+==(equals)
+!=(not equal to)
+
+"""

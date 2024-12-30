@@ -1,0 +1,47 @@
+#import tkiner
+#from tkinter import*
+#import tkinter as tk
+
+
+"""
+import tkinter  -> imports tkinter as a whole, meaning that you prefix every
+                   class, function or variable from tkinter with the module
+                   name
+
+
+import tkinter
+
+root = tkinter.Tk()
+label = tkinter.Label(root, text = 'Hello World')
+label.pack()
+
+root.mainloop()
+
+"""
+
+"""
+from tkinter import*  -> this imports all the functions, classes, variables
+                         from tkinter directly, so you can use them without
+                         a prefix
+
+
+from tkinter import*
+
+root = Tk()
+label = Label(root, text = 'Hello World')
+label. pack()
+
+root.mainloop()
+
+"""
+
+"""
+import tkinter as tk  -> imports the tkinter module but gives it shorter 
+                         alias
+
+
+root = tk.Tk()
+label = tk.Label(root, text = "Hello World!")
+label.pack()
+root.mainloop
+"""

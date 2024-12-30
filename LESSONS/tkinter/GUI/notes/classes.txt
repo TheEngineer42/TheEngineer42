@@ -1,0 +1,41 @@
+1. Window Classes
+
+Tk: The main application window (the root window).
+Toplevel: Creates a secondary window that can be used in 
+          addition to the main window.
+
+
+2. Widget Classes (These represent the visual elements or components in the window.)
+
+Label: Displays text or images.
+Button: A clickable button
+Entry: A single-line text field for user input
+Text: A multi-line text box for user input
+Checkbutton: A checkbox for selecting/deselecting options.
+Radiobutton: A radio button used for selecting one option from a group
+Listbox: Displays a list of items for the user to select from
+
+
+3. Container Classes (Geometry Managers)These manage the layout and placement of widgets within the window
+
+Frame: A container widget that groups other widgets together
+Canvas: A widget used for drawing shapes, images, and other complex layouts.
+PanedWindow: A container widget that allows resizing of panes
+
+
+4. Menu Classes(These handle the creation of menus for the GUI.)
+
+Menu: A simple menu bar that can have items like File, Edit, etc
+
+
+5. Dialog Classes
+
+Messagebox: Shows message dialogs (information, warnings, errors, etc.)
+SimpleDialog: Used to create simple input dialogs.
+
+
+6. Miscellaneous Classes
+
+Scrollbar: A scrollbar widget that is used with other widgets like Text or Listbox.
+Spinbox: A widget for selecting a value from a range of options
+LabelFrame: A container widget with a label at the top to group other widgets.
