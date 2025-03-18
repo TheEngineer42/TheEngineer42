@@ -1,0 +1,8 @@
+import random
+
+a = int(input('write how many numbers to write: '))
+
+
+for i in range(a):
+    n = random.randint(0,11)
+    print(n)

@@ -1,7 +1,6 @@
 number = int(input('write you number: '))
 
 
-
 if number >= 100:
     print(number, 'is greater than 100')
 

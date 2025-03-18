@@ -16,4 +16,3 @@ print(ord('g'))        #103
 char_value = chr(65)
 print(char_value)       #A
 
-

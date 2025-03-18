@@ -12,7 +12,11 @@ for i in range(0,500,20):
     canvas.create_line(i,0,i,500)
     canvas.create_line(0,i,500,i)
 
-
+#drawing borders manually because they are not visible
+canvas.create_line(2,0,2,500)
+canvas.create_line(0,2,500,2)
+canvas.create_line(500,0,500,500)
+canvas.create_line(0,500,500,500)
 
 #Creating starting point
 canvas.create_rectangle(20,0,40,20, fill = 'green')
@@ -32,12 +36,8 @@ for _ in range(500):
     l = random.randrange(0,500,20) 
     canvas.create_line(l,k+1,l,k+20, fill = 'skyblue')
 
-
-#drawing borders manually because they are not visible + preventing 'dots'
-canvas.create_line(2,0,2,500)
-canvas.create_line(0,2,500,2)
-canvas.create_line(500,0,500,500)
-canvas.create_line(0,500,500,500)
-
+#Path finding algorithm
+#destory path = canvas.create_line(.... fill='skyblue')
+#horizontal line or vertical line until it doesnt reach red square
 
 root.mainloop()

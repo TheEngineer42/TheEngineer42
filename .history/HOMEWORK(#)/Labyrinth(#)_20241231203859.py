@@ -33,7 +33,7 @@ for _ in range(500):
     canvas.create_line(l,k+1,l,k+20, fill = 'skyblue')
 
 
-#drawing borders manually because they are not visible + preventing 'dots'
+#drawing borders manually because they are not visible
 canvas.create_line(2,0,2,500)
 canvas.create_line(0,2,500,2)
 canvas.create_line(500,0,500,500)
