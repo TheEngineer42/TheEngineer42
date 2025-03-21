@@ -1,0 +1,12 @@
+from tkinter import*
+root = Tk()
+root.geometry('500x500')
+
+def update():
+    label.config(text = "Updated after 2 seconds")
+
+label = Label(root, text = 'Waiting for updates...')
+label.pack()
+
+root.after(2000, update)
+root.mainloop()
