@@ -1,0 +1,3 @@
+celkovy pocet hlasujucich: 597
+percento spokojnych: 46.06%
+percento nespokojnych: 53.94%

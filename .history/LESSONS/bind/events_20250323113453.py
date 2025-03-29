@@ -11,6 +11,7 @@ Mouse Events
 <Enter>	Mouse enters the widget's area.
 <Leave>	Mouse leaves the widget's area.
 <MouseWheel>	Scroll wheel movement (Windows/macOS).
+<Space> spacebar
 
 
 

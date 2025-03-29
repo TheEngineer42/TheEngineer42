@@ -1,0 +1,1 @@
+birthday = input("enter when you were born in format dd.mm.rrrr")

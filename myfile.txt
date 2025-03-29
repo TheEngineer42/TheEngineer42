@@ -1,0 +1,3 @@
+Hello, this is my first file text
+I can also add multiple lines
+This is another life

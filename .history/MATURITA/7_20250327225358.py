@@ -1,0 +1,23 @@
+birthday = input("enter when you were born in format dd.mm.rrrr: ")
+digit = input('enter 4 digit code: ')
+gender = input('man/woman: ')
+
+
+empty = []
+empty.append(birthday[3])
+empty.append(birthday[4])
+n = "".join(empty)
+print(n)
+
+#rrmmdd/cccc
+if gender == 'man':
+    print(f'{birthday[8]}{birthday[9]}{n}{birthday[0]}{birthday[1]}/{digit}')
+
+
+elif gender == 'woman':
+    n = n+50
+    print(f"{birthday}/{digit}")
+
+else:
+    print('error')
+
